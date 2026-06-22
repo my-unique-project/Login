@@ -15,9 +15,9 @@ body {
 #main {
     position: relative;
     border-radius: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     width: 30vw;
-    height: 60vh;
+    height: 65vh;
     padding: 30px 20px 30px 20px;
     border: 1px solid rgb(0, 104, 174);
     background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
@@ -29,8 +29,8 @@ body {
 }
 
 button {
-    font-size: 0.5rem;
-    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
     cursor: pointer;
     border: 0px;
     border-radius: 30px;
@@ -41,8 +41,8 @@ button {
 #txt_login,
 #txt_signup {
     color: rgb(70, 70, 70);
-    padding: 10px 0px 0px 20px;
-    font-size: 1rem;
+    padding: 20px 0px 10px 20px;
+    font-size: 2.5rem;
 }
 
 #input_sec {
@@ -50,16 +50,16 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 input {
-    font-size: 0.5rem;
-    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
     border: 0px;
     outline: none;
-    border-radius: 20px;
-    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+    padding: 0px 20px 0px 20px;
     height: 8vh;
     width: 25vw;
     transition: 0.2s;
@@ -71,9 +71,9 @@ input:hover {
 }
 
 #txt_forget {
-    padding: 20px 0px 10px 20px;
+    padding: 20px 0px 20px 20px;
     cursor: pointer;
-    font-size: 0.6rem;
+    font-size: 1rem;
     color: rgb(0, 0, 116);
 }
 
@@ -84,7 +84,7 @@ input:hover {
 
 #final_login,
 #final_signup {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
     color: aliceblue;
     background-color: rgb(4, 100, 148);
     width: 15vw;
@@ -95,11 +95,11 @@ input:hover {
 #final_signup_btn {
     display: flex;
     justify-content: center;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 #final_signup_btn {
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 #final_login:hover,
@@ -108,8 +108,8 @@ input:hover {
 }
 
 #tips {
-    font-size: 0.5rem;
-    padding: 10px 0px 10px 20px;
+    font-size: 1rem;
+    padding: 20px 0px 20px 50px;
 }
 
 #tips_hover {
@@ -125,7 +125,7 @@ input:hover {
     padding: 10px 0px 0px 0px;
     text-align: center;
     color: #000270;
-    font-size: 0.3rem;
+    font-size: 0.7rem;
 }
 
 
@@ -154,7 +154,7 @@ input:hover {
     #main {
         position: relative;
         border-radius: 20px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Nunito", sans-serif;
         width: 80vw;
         height: 60vh;
         padding: 30px 20px 30px 20px;
@@ -169,7 +169,7 @@ input:hover {
 
     button {
         font-size: 1em;
-        font-family: "Outfit", sans-serif;
+        font-family: "Nunito", sans-serif;
         cursor: pointer;
         border: 0px;
         border-radius: 30px;
@@ -193,7 +193,7 @@ input:hover {
     }
 
     input {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Nunito", sans-serif;
         border: 0px;
         outline: none;
         border-radius: 50px;
