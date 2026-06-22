@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100%;
+    background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
+}
+
+#main {
+    position: relative;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    width: 30vw;
+    height: 60vh;
+    padding: 30px 20px 30px 20px;
+    border: 1px solid rgb(0, 104, 174);
+    background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
+}
+
+#login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 0.5rem;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 30px;
+    height: 7vh;
+    width: 14vw;
+}
+
+#txt_login,
+#txt_signup {
+    color: rgb(70, 70, 70);
+    padding: 10px 0px 0px 20px;
+    font-size: 1rem;
+}
+
+#input_sec {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    font-size: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
+    height: 8vh;
+    width: 25vw;
+    transition: 0.2s;
+}
+
+input:hover {
+    border: 1px solid rgb(0, 0, 110);
+    transform: translateY(-10%);
+}
+
+#txt_forget {
+    padding: 20px 0px 10px 20px;
+    cursor: pointer;
+    font-size: 0.6rem;
+    color: rgb(0, 0, 116);
+}
+
+#txt_forget:hover {
+    color: red;
+}
+
+
+#final_login,
+#final_signup {
+    font-size: 0.5rem;
+    color: aliceblue;
+    background-color: rgb(4, 100, 148);
+    width: 15vw;
+    transition: 0.1s;
+}
+
+#final_login_btn,
+#final_signup_btn {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+}
+
+#final_signup_btn {
+    padding: 10px 0px 10px 0px;
+}
+
+#final_login:hover,
+#final_signup:hover {
+    background-color: rgb(17, 150, 199);
+}
+
+#tips {
+    font-size: 0.5rem;
+    padding: 10px 0px 10px 20px;
+}
+
+#tips_hover {
+    cursor: pointer;
+    color: rgb(0, 0, 116);
+}
+
+#tips_hover:hover {
+    color: red;
+}
+
+#signUpDummyText {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    color: #000270;
+    font-size: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        -webkit-tap-highlight-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+        width: 100%;
+    }
+
+    #main {
+        position: relative;
+        border-radius: 20px;
+        font-family: "Montserrat", sans-serif;
+        width: 80vw;
+        height: 60vh;
+        padding: 30px 20px 30px 20px;
+        background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
+        box-shadow: 2px 2px 10px rgba(133, 133, 133, 0.753);
+    }
+
+    #login {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    button {
+        font-size: 1em;
+        font-family: "Outfit", sans-serif;
+        cursor: pointer;
+        border: 0px;
+        border-radius: 30px;
+        height: 7vh;
+        width: 35vw;
+    }
+
+    #txt_login,
+    #txt_signup {
+        color: rgb(70, 70, 70);
+        padding: 20px 0px 0px 20px;
+        font-size: 2rem;
+    }
+
+    #input_sec {
+        padding: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    input {
+        font-family: "Montserrat", sans-serif;
+        border: 0px;
+        outline: none;
+        border-radius: 50px;
+        padding: 0px 20px 0px 20px;
+        height: 7vh;
+        width: 70vw;
+        font-size: 1rem;
+        transition: 0.2s;
+    }
+
+    input:hover {
+        transform: translateY(-10%);
+    }
+
+    #txt_forget {
+        padding: 20px 0px 20px 20px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: rgb(0, 0, 138);
+    }
+
+    #txt_forget:hover {
+        color: red;
+    }
+
+
+    #final_login,
+    #final_signup {
+        font-size: 1rem;
+        color: aliceblue;
+        background-color: rgb(4, 100, 148);
+        width: 45vw;
+        transition: 0.1s;
+    }
+
+    #final_login_btn,
+    #final_signup_btn {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 20px 0px;
+    }
+
+    #final_signup_btn {
+        padding: 20px 0px 20px 0px;
+    }
+
+    #final_login:hover,
+    #final_signup:hover {
+        background-color: rgb(17, 150, 199);
+    }
+
+    #tips {
+        font-size: 0.9rem;
+        padding: 20px 0px 20px 20px;
+    }
+
+    #tips_hover {
+        cursor: pointer;
+        color: rgb(0, 0, 138);
+    }
+
+    #tips_hover:hover {
+        color: red;
+    }
+
+    #signUpDummyText {
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        color: #000270;
+        font-size: 0.6rem;
+    }
+}
