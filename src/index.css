@@ -13,12 +13,13 @@ body {
 }
 
 #main {
+    box-shadow: 2px 2px 10px rgba(133, 133, 133, 0.753);
     position: relative;
     border-radius: 20px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Jost", sans-serif;
     width: 30vw;
-    height: 65vh;
-    padding: 30px 20px 30px 20px;
+    height: auto;
+    padding: 30px 20px 20px 20px;
     border: 1px solid rgb(0, 104, 174);
     background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
 }
@@ -30,12 +31,12 @@ body {
 
 button {
     font-size: 1.2rem;
-    font-family: "Nunito", sans-serif;
+    font-family: "Jost", sans-serif;
     cursor: pointer;
     border: 0px;
     border-radius: 30px;
     height: 7vh;
-    width: 14vw;
+    width: 12vw;
 }
 
 #txt_login,
@@ -55,29 +56,37 @@ button {
 
 input {
     font-size: 1rem;
-    font-family: "Nunito", sans-serif;
-    border: 0px;
+    font-family: "Jost", sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
     outline: none;
-    border-radius: 50px;
-    padding: 0px 20px 0px 20px;
+    border-radius: 0px;
+    padding: 0px 20px 0px 0px;
     height: 8vh;
     width: 25vw;
     transition: 0.2s;
 }
 
+input::placeholder {
+    color: #000000;
+}
+
 input:hover {
-    border: 1px solid rgb(0, 0, 110);
     transform: translateY(-10%);
 }
 
 #txt_forget {
-    padding: 20px 0px 20px 20px;
+    display: inline-block;
+    padding: 30px 0px 20px 50px;
     cursor: pointer;
     font-size: 1rem;
     color: rgb(0, 0, 116);
+    transition: 0.3s;
 }
 
 #txt_forget:hover {
+    letter-spacing: 2px;
     color: red;
 }
 
@@ -87,8 +96,8 @@ input:hover {
     font-size: 1.2rem;
     color: aliceblue;
     background-color: rgb(4, 100, 148);
-    width: 15vw;
-    transition: 0.1s;
+    width: 10vw;
+    transition: 0.3s;
 }
 
 #final_login_btn,
@@ -104,7 +113,8 @@ input:hover {
 
 #final_login:hover,
 #final_signup:hover {
-    background-color: rgb(17, 150, 199);
+    width: 13vw;
+    font-size: 1.4rem;
 }
 
 #tips {
@@ -138,6 +148,7 @@ input:hover {
 
 @media only screen and (max-width:500px) {
     * {
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
@@ -154,10 +165,10 @@ input:hover {
     #main {
         position: relative;
         border-radius: 20px;
-        font-family: "Nunito", sans-serif;
+        font-family: "Jost", sans-serif;
         width: 80vw;
-        height: 60vh;
-        padding: 30px 20px 30px 20px;
+        height: auto;
+        padding: 30px 20px 20px 20px;
         background-image: linear-gradient(220deg, rgb(187, 255, 248), rgb(220, 241, 245), rgba(164, 169, 255, 0.652));
         box-shadow: 2px 2px 10px rgba(133, 133, 133, 0.753);
     }
@@ -169,12 +180,12 @@ input:hover {
 
     button {
         font-size: 1em;
-        font-family: "Nunito", sans-serif;
+        font-family: "Jost", sans-serif;
         cursor: pointer;
-        border: 0px;
+        border: none;
         border-radius: 30px;
         height: 7vh;
-        width: 35vw;
+        width: 30vw;
     }
 
     #txt_login,
@@ -193,29 +204,35 @@ input:hover {
     }
 
     input {
-        font-family: "Nunito", sans-serif;
-        border: 0px;
+        background: transparent;
+        font-family: "Jost", sans-serif;
+        border: none;
+        border-bottom: 1px solid black;
         outline: none;
-        border-radius: 50px;
-        padding: 0px 20px 0px 20px;
+        border-radius: 0px;
+        padding: 0px 20px 0px 0px;
         height: 7vh;
-        width: 70vw;
-        font-size: 1rem;
+        width: 60vw;
+        font-size: 1.1rem;
         transition: 0.2s;
     }
 
-    input:hover {
-        transform: translateY(-10%);
+    input::placeholder {
+        font-size: 0.9rem;
+        color: #000000;
     }
 
     #txt_forget {
-        padding: 20px 0px 20px 20px;
+        display: inline-block;
+        transition: 0.2s;
+        padding: 30px 0px 20px 40px;
         cursor: pointer;
         font-size: 1rem;
         color: rgb(0, 0, 138);
     }
 
     #txt_forget:hover {
+        letter-spacing: 2px;
         color: red;
     }
 
@@ -224,9 +241,10 @@ input:hover {
     #final_signup {
         font-size: 1rem;
         color: aliceblue;
-        background-color: rgb(4, 100, 148);
-        width: 45vw;
-        transition: 0.1s;
+        background-color: rgb(50, 13, 87);
+        color: #d7d8ff;
+        width: 30vw;
+        transition: 0.3s;
     }
 
     #final_login_btn,
@@ -242,12 +260,13 @@ input:hover {
 
     #final_login:hover,
     #final_signup:hover {
-        background-color: rgb(17, 150, 199);
+        width: 35vw;
+        font-size: 1.2rem;
     }
 
     #tips {
         font-size: 0.9rem;
-        padding: 20px 0px 20px 20px;
+        padding: 20px 0px 0px 20px;
     }
 
     #tips_hover {

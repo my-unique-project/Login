@@ -50,7 +50,7 @@ function Login() {
                                 <input placeholder='Password' type='password'></input>
                             </div>
 
-                            <p id="txt_forget">Forget Password?</p>
+                            <span id="txt_forget">Forget Password?</span>
 
                             <div id="final_login_btn">
                                 <button id="final_login">Log In</button>
