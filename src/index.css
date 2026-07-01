@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +18,7 @@ body {
     position: relative;
     border-radius: 20px;
     font-family: "Jost", sans-serif;
-    width: 30vw;
+    width: 40vw;
     height: auto;
     padding: 30px 20px 20px 20px;
     border: 1px solid rgb(0, 104, 174);
@@ -36,7 +37,7 @@ button {
     border: 0px;
     border-radius: 30px;
     height: 7vh;
-    width: 12vw;
+    width: 15vw;
 }
 
 #txt_login,
@@ -64,7 +65,7 @@ input {
     border-radius: 0px;
     padding: 0px 0px 0px 0px;
     height: 8vh;
-    width: 25vw;
+    width: 35vw;
     transition: 0.2s;
 }
 
